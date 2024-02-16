@@ -1,8 +1,10 @@
 from openai import OpenAI
-#import dotenv
-#dotenv.load_dotenv()
-#key = dotenv.get_key("OPENAI_API_KEY")
-from env import API_KEY, BASE_URL # temporary workaround...
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+BASE_URL = os.getenv("BASE_URL")
 
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 

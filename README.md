@@ -15,7 +15,7 @@ A Python script for demonstrating a quick and simple integration of OpenAI's cha
 - OpenAI API access and appropriate API keys for chat completion and embeddings functionalities.
 - `logging` module
 - `numpy` module
-- `python-dotenv` module (not presently needed. eventually, maybe?)
+- `python-dotenv` module
 
 ## Usage
 
